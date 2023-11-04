@@ -9,17 +9,17 @@
         "filament/filament": "^3.0",
         "filament/spatie-laravel-tags-plugin": "^3.0",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.25",
+        "laravel/framework": "^10.29",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23.0",
         "laravel/pint": "^1.13",
-        "laravel/sail": "^1.25",
+        "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6.6",
-        "nunomaduro/collision": "^7.9",
-        "phpunit/phpunit": "^10.3",
+        "nunomaduro/collision": "^7.10",
+        "phpunit/phpunit": "^10.4",
         "spatie/laravel-ignition": "^2.3"
     },
     "autoload": {
