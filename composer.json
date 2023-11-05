@@ -9,7 +9,7 @@
         "filament/filament": "^3.0",
         "filament/spatie-laravel-tags-plugin": "^3.0",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.29",
+        "laravel/framework": "^10.30",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
