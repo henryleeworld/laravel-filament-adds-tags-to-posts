@@ -9,7 +9,7 @@
         "filament/filament": "^3.0",
         "filament/spatie-laravel-tags-plugin": "^3.0",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.30",
+        "laravel/framework": "^10.31",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
@@ -37,7 +37,8 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
