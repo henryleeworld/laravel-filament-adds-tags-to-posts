@@ -6,10 +6,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "filament/filament": "^3.0",
+        "filament/filament": "^3.1",
         "filament/spatie-laravel-tags-plugin": "^3.0",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.32",
+        "laravel/framework": "^10.35",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
@@ -19,7 +19,7 @@
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6.6",
         "nunomaduro/collision": "^7.10",
-        "phpunit/phpunit": "^10.4",
+        "phpunit/phpunit": "^10.5",
         "spatie/laravel-ignition": "^2.3"
     },
     "autoload": {
