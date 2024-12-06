@@ -11,7 +11,14 @@ return [
     'columns' => [
 
         'text' => [
+
+            'actions' => [
+                'collapse_list' => 'Näytä :count vähemmän',
+                'expand_list' => 'Näytä :count lisää',
+            ],
+
             'more_list_items' => 'ja :count lisää',
+
         ],
 
     ],
@@ -24,6 +31,10 @@ return [
 
         'bulk_select_record' => [
             'label' => 'Aseta/poista massatoiminnon valinta kohteelle :key.',
+        ],
+
+        'bulk_select_group' => [
+            'label' => 'Aseta/poista massatoiminnon valinta ryhmälle :title.',
         ],
 
         'search' => [
@@ -101,6 +112,10 @@ return [
     'filters' => [
 
         'actions' => [
+
+            'apply' => [
+                'label' => 'Käytä suodattimet',
+            ],
 
             'remove' => [
                 'label' => 'Poista suodatin',

@@ -1,4 +1,4 @@
-# Laravel 10 Filament 將標籤新增到貼文中
+# Laravel 11 Filament 將標籤新增到貼文中
 
 Filament 將標籤新增到貼文中採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，使用越多標籤，貼文就有更大的機會被其他用戶看見。但也要注意，標籤的濫用也可能造成使用者的反感。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/7UfYkza.png)
+![](https://i.imgur.com/DBxX2EL.png)
 > 該如何下標籤，這需要戰略思考
 
-![](https://i.imgur.com/dlaIbS6.png)
+![](https://i.imgur.com/QPOVa6P.png)
 > 標籤有兩個主要的功能，第一個是分類，第二是話題

@@ -2,13 +2,18 @@
 
 namespace App\Models;
 
-use Spatie\Tags\HasTags;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Tags\HasTags;
 
 class Post extends Model
 {
     use HasTags;
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
     protected $fillable = [
         'name',
         'text',

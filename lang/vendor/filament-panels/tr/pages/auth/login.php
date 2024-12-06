@@ -2,9 +2,22 @@
 
 return [
 
-    'title' => 'Giriş yap',
+    'title' => 'Giriş Yap',
 
-    'heading' => 'Hesabınıza giriş yapın',
+    'heading' => 'Oturum Aç',
+
+    'actions' => [
+
+        'register' => [
+            'before' => 'veya',
+            'label' => 'bir hesap oluşturun',
+        ],
+
+        'request_password_reset' => [
+            'label' => 'Şifrenizi mi unuttunuz?',
+        ],
+
+    ],
 
     'form' => [
 
@@ -13,7 +26,7 @@ return [
         ],
 
         'password' => [
-            'label' => 'Parola',
+            'label' => 'Şifre',
         ],
 
         'remember' => [
@@ -32,14 +45,15 @@ return [
 
     'messages' => [
 
-        'failed' => 'Bu kimlik bilgileri kayıtlarla eşleşmiyor.',
+        'failed' => 'Bu kimlik bilgileri kayıtlarımızla eşleşmiyor.',
 
     ],
 
     'notifications' => [
 
         'throttled' => [
-            'title' => 'Çok fazla giriş denemesi. Lütfen :seconds saniye sonra tekrar deneyin.',
+            'title' => 'Çok fazla giriş denemesi',
+            'body' => 'Lütfen :seconds saniye sonra tekrar deneyin.',
         ],
 
     ],

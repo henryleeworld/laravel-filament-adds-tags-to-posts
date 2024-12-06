@@ -29,6 +29,7 @@ return [
 
     'empty' => [
         'heading' => '未找到資料',
+
         'description' => '建立一個 :model 來開始。',
     ],
 

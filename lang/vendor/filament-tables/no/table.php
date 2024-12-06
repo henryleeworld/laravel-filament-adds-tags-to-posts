@@ -11,7 +11,14 @@ return [
     'columns' => [
 
         'text' => [
-            'more_list_items' => 'og :count flere',
+
+            'actions' => [
+                'collapse_list' => 'Vis :count mindre',
+                'expand_list' => 'Vis :count til',
+            ],
+
+            'more_list_items' => 'og :count til',
+
         ],
 
     ],
@@ -24,6 +31,10 @@ return [
 
         'bulk_select_record' => [
             'label' => 'Velg/fjern element :key for massehandlinger.',
+        ],
+
+        'bulk_select_group' => [
+            'label' => 'Velg/fjern gruppen :title for massehandlinger.',
         ],
 
         'search' => [
@@ -101,6 +112,10 @@ return [
     'filters' => [
 
         'actions' => [
+
+            'apply' => [
+                'label' => 'Bruk filtre',
+            ],
 
             'remove' => [
                 'label' => 'Fjern filter',

@@ -15,9 +15,17 @@ return [
             ],
 
             'save' => [
-                'label' => 'Guardar',
+                'label' => 'Guardar alterações',
             ],
 
+        ],
+
+    ],
+
+    'content' => [
+
+        'tab' => [
+            'label' => 'Editar',
         ],
 
     ],
@@ -25,7 +33,7 @@ return [
     'notifications' => [
 
         'saved' => [
-            'title' => 'Guardado!',
+            'title' => 'Guardado',
         ],
 
     ],
